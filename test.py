@@ -11,7 +11,7 @@
 
 # print("Thanks for your order!")
 
-'''------------------------------------------------------------------------------------'''
+'''-----------------------------------------------------------------------------------------------------------------------------'''
 '''Optional Challenge 2'''
 
 # color = ""
@@ -19,3 +19,14 @@
 # while color != "Stop.":
 #     color = input("What is your favorite color? (Type |Stop.| when done.):  ")
 # print ("Thank you for stating your favorite color along with everything about you.")
+
+'''------------------------------------------------------------------------------------------------------------------------------'''
+
+import random
+
+y = random.randint(1,10)
+print(y)
+
+def test():
+    x = 50
+    print(x)
