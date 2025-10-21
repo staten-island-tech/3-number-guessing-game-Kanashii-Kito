@@ -29,12 +29,33 @@ input = (f"Please input a number from {ran}") """
 
 '''------------------------------------------------------------------------------------------------------------------------------------------------'''
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import random
 
 ran = random.randint(1, 10)
 
 
-user_input = input
+user_input = []
 
 guess_history= []
 
@@ -48,14 +69,30 @@ while user_input != ran:
 
 
 
-
-
-
 print("Thank you for guessing the correct number!")
 print (f"Your guess history is below: {guess_history}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 '''------------------------------------------------------------------------------------------------------------------------------------------------'''
 
-#     user_input = input(f"Please input a number from 1 to 10: ")
-#     print ("If you got the message above again, that means you've guess the wrong number from 1 to 10 or what you've entered isn't a valid number.")
-# if user_input is ran:
-#     print ("Thank you for guessing the correct number.")
+"""     user_input = input(f"Please input a number from 1 to 10: ")
+    print ("If you got the message above again, that means you've guess the wrong number from 1 to 10 or what you've entered isn't a valid number.")
+if user_input is ran:
+    print ("Thank you for guessing the correct number.") """
