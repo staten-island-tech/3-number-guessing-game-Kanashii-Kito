@@ -1,13 +1,20 @@
-count = 1
+# count = 1
 
-while count <= 5:
-    print("This is loop number", count)
-    count = count + 1
+# while count <= 5:
+#     print("This is loop number", count)
+#     count = count + 1
 
 
-order = ""
+# order = ""
 
-while order != "done":
-    order = input("What would you like to order? (type 'done' to finish): ")
+# while order != "done":
+#     order = input("What would you like to order? (type 'done' to finish): ")
 
-print("Thanks for your order!")
+# print("Thanks for your order!")
+
+
+
+
+
+
+
